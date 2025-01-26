@@ -53,7 +53,7 @@ expericence = st.slider("Years of Experience", 0, 50, 3)
 
 ok = st.button("Calculate Salary")
 if ok:
-    X_new_df = pd.DataFrame({'Country':country, 'EdLevel':education, 'YearsCodePro':expericence})
+    X_new_df = pd.DataFrame({'Country':[country], 'EdLevel':[education], 'YearsCodePro':[expericence]})
     salary = model.predict(X_new_df)
     
     st.subheader(f"The estimated salary is ${salary[0]:.2f}")

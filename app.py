@@ -51,12 +51,9 @@ country = st.selectbox("Country", countries)
 education = st.selectbox("Education Level", education)
 expericence = st.slider("Years of Experience", 0, 50, 3)
 
-columns = ['Country', 'EdLevel', 'YearsCodePro']
-
 ok = st.button("Calculate Salary")
 if ok:
-    X_new_df = pd.DataFrame([[country, education, expericence]])
-    X_new_df.columns = columns
+    X_new_df = pd.DataFrame({'Country':country, 'EdLevel':education, 'YearsCodePro':expericence})
     salary = model.predict(X_new_df)
     
     st.subheader(f"The estimated salary is ${salary[0]:.2f}")

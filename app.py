@@ -37,7 +37,8 @@ countries = (
     "New Zealand",
     "Mexico",
     "South Africa",
-    "Pakistan"
+    "Pakistan",
+    "Other"
 
 )
 
@@ -55,7 +56,7 @@ columns = ['Country', 'EdLevel', 'YearsCodePro']
 
 ok = st.button("Calculate Salary")
 if ok:
-    X_new_df = pd.DataFrame([country, education, expericence], columns=columns)
+    X_new_df = pd.DataFrame([[country, education, expericence]], columns=columns)
     salary = model.predict(X_new_df)
     
     st.subheader(f"The estimated salary is ${salary[0]:.2f}")

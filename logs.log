@@ -4366,3 +4366,32 @@ Parameters: { "xgboost__max_depth" } are not used.
 
 
 
+2025-01-26 16:49:48,231:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-26 16:49:48,231:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-26 16:49:48,231:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-26 16:49:48,231:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-26 16:51:25,825:INFO:PyCaret RegressionExperiment
+2025-01-26 16:51:25,825:INFO:Logging name: reg-default-name
+2025-01-26 16:51:25,825:INFO:ML Usecase: MLUsecase.REGRESSION
+2025-01-26 16:51:25,825:INFO:version 3.3.2
+2025-01-26 16:51:25,825:INFO:Initializing setup()
+2025-01-26 16:51:25,825:INFO:self.USI: 664e
+2025-01-26 16:51:25,825:INFO:self._variable_keys: {'log_plots_param', 'y_test', 'transform_target_param', 'seed', 'fold_generator', 'target_param', 'y', 'X', 'fold_shuffle_param', 'pipeline', 'memory', 'exp_id', 'html_param', 'data', 'n_jobs_param', 'logging_param', 'gpu_param', 'X_train', 'USI', '_ml_usecase', 'fold_groups_param', 'gpu_n_jobs_param', 'idx', 'y_train', '_available_plots', 'exp_name_log', 'X_test'}
+2025-01-26 16:51:25,825:INFO:Checking environment
+2025-01-26 16:51:25,826:INFO:python_version: 3.9.21
+2025-01-26 16:51:25,826:INFO:python_build: ('main', 'Dec 11 2024 16:35:24')
+2025-01-26 16:51:25,826:INFO:machine: AMD64
+2025-01-26 16:51:25,826:INFO:platform: Windows-10-10.0.19045-SP0
+2025-01-26 16:51:25,828:INFO:Memory: svmem(total=16908730368, available=8991518720, percent=46.8, used=7917211648, free=8991518720)
+2025-01-26 16:51:25,828:INFO:Physical Core: 6
+2025-01-26 16:51:25,828:INFO:Logical Core: 12
+2025-01-26 16:51:25,828:INFO:Checking libraries
+2025-01-26 16:51:25,828:INFO:System:
+2025-01-26 16:51:25,828:INFO:    python: 3.9.21 (main, Dec 11 2024, 16:35:24) [MSC v.1929 64 bit (AMD64)]
+2025-01-26 16:51:25,828:INFO:executable: c:\Users\ZAITOON.iR\anaconda3\envs\my_env\python.exe
+2025-01-26 16:51:25,828:INFO:   machine: Windows-10-10.0.19045-SP0
+2025-01-26 16:51:25,828:INFO:PyCaret required dependencies:

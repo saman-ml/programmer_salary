@@ -55,7 +55,7 @@ columns = ['Country', 'EdLevel', 'YearsCodePro']
 
 ok = st.button("Calculate Salary")
 if ok:
-    X_new = np.array([countries,education,expericence])
+    X_new = np.array([[countries,education,expericence]])
     X_new_df = pd.DataFrame([X_new], columns = columns)
     salary = model.predict(X_new_df)
     
